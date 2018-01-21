@@ -23,7 +23,7 @@ TELE_TOKEN: '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM', // looks like '3644
 BOTNAME: 'forkcoin_bot', // the name of your bot
 BOT_USERNAME: '@Fork_Coin_CEO', // your bot's username (without the @)
 
-HEROKU_URL: 'https://YOUR_HEROKU_APP_NAME.herokuapp.com:443',
+HEROKU_URL: 'https://forkcoin.herokuapp.com/',
 
 // BOT PARAMETERS
 // these need to be filled in with user_ids (as integers)
