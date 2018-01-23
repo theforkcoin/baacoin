@@ -1,6 +1,6 @@
 // CONFIGURE THESE SETTINGS
 
-var TESTNET = false;
+var TESTNET = true;
 
 module.exports = {
 
@@ -23,7 +23,7 @@ TELE_TOKEN: '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM', // looks like '3644
 BOTNAME: 'forkcoin_bot', // the name of your bot
 BOT_USERNAME: '@Fork_Coin_CEO', // your bot's username (without the @)
 
-HEROKU_URL: 'https://forkcoin.herokuapp.com:5432/',
+HEROKU_URL: 'https://forkcoin.herokuapp.com:443/',
 
 // BOT PARAMETERS
 // these need to be filled in with user_ids (as integers)
