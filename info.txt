@@ -4,7 +4,7 @@ bgcgchypecoin@gmx.net
 
 gcgvmForkcoin2018@
 
-
+winpty heroku login
 
 
 
