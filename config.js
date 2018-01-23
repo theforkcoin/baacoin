@@ -20,7 +20,7 @@ WALLET_PASS: 'Forkcoin2018@',
 
 TELE_TOKEN: '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM', // looks like '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM'
 
-BOTNAME: 'forkcoin_bot', // the name of your bot
+BOTNAME: 'ForkCoin', // the name of your bot
 BOT_USERNAME: '@Fork_Coin_CEO', // your bot's username (without the @)
 
 HEROKU_URL: 'https://forkcoin.herokuapp.com:443/',
