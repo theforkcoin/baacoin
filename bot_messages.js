@@ -336,7 +336,7 @@ keyboard: [
 reply_markup: JSON.stringify({
 keyboard: [
 [{text: '💵 Einzahlen'}, {text: '🏧 Abheben'}], 
-[{text: '📊 Statistiken'}], {text: '♻️ Reinvest'}],
+[{text: '📊 Statistiken'}, {text: '♻️ Reinvest'}],
 [{text: '🚸 Meine Verweis Link'}, {text: '⚙️ Optionen'}],
 [{text: '🌐 FAQ'},{text: '📝 Support'}],
 [{text: '🍀 Admin Menü'}]
