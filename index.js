@@ -1483,4 +1483,4 @@ function JesusBot(bot, sql_client) {
 var pwnBot = new JesusBot(bot, sql_client);
 
 
-// Developed by R6Click.com
+// Developed by R6Click.com; Richard Nii Lante Lawson

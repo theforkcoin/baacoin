@@ -11,7 +11,7 @@ var c = require('./config');
         var self = this;
 
 this.initial_welcome_msg = `🔑 Welcome to ${c.BOTNAME} \n
-${c.BOTNAME} generates per-user investment, 6% per day on each deposit, with the benefit of stackable deposits increasing hourly.Bigger , Better , Stronger and Safer.`;
+${c.BOTNAME} generates per-user investment, 6% per day on each deposit, with the benefit of stackable deposits increasing hourly. Bigger , Better , Stronger and Safer.`;
 
 this.big_dict = {
 'english': {
