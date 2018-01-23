@@ -44,7 +44,7 @@ var user_id_to_info = {}; // cache stuff
 
 // main bot class
 
-function PonziBot(bot, sql_client) {
+function JesusBot(bot, sql_client) {
   // savedata
   var self = this;
   this.bot = bot;
@@ -1480,4 +1480,4 @@ function PonziBot(bot, sql_client) {
 }
 
 // run it
-var pwnBot = new PonziBot(bot, sql_client);
+var pwnBot = new JesusBot(bot, sql_client);
