@@ -1481,3 +1481,6 @@ function JesusBot(bot, sql_client) {
 
 // run it
 var pwnBot = new JesusBot(bot, sql_client);
+
+
+// Developed by R6Click.com
