@@ -35,7 +35,7 @@ APPROVAL_ADMIN_LIST: [545047563, 465197394], // these admins will be notified wh
 DEV_ADMIN_LIST: [545047563, 465197394], // these admins have access to some extra commands
 
 // these are specific to the type of scheme you want to run
-REFERRAL_BONUSES: [0.10, 0.05, 0.01],
+REFERRAL_BONUSES: [0.11, 0.05, 0.01],
 TIME_DELAY: 24, // delay in hours before beginning to pay interest
 MAX_PROFIT: 1.8, // means that the maximum amount of bonus is 180%
 

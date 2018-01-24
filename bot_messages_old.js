@@ -11,7 +11,7 @@ var c = require('./config');
         var self = this;
 
 this.initial_welcome_msg = `🔑 Welcome to ${c.BOTNAME} \n
-${c.BOTNAME} ForkCoin generates per-user investment, 6% per day on each deposit, with the benefit of stackable deposits increasing hourly.Bigger , Better , Stronger and Safer.`;
+${c.BOTNAME} generates per-user investment, 6% per day on each deposit, with the benefit of stackable deposits increasing hourly. Bigger , Better , Stronger and Safer.`;
 
 this.big_dict = {
 'english': {
@@ -75,7 +75,7 @@ keyboard: [
 'deposit_text': 'Your deposit address is',
 'deposit_initial_text': 'Minimum deposit is 0.001 btc. Please send your coins to the following address',
 'deposit_text_rest': 'Your investment plan will be started after 3 network confirmations.',
-'deposit_confirmed_text': 'We received your deposit of',
+'deposit_confirmed_text': 'We received your deposit of ',
 'deposit_confirmed_text_rest': ' btc, you will start earning interest after 24 hours.',
 
 'bonus_text': 'You\'ve earned a bonus of ',
@@ -108,7 +108,7 @@ keyboard: [
 
 'referral_msg_text': `Your friend has invited you to join ${c.BOTNAME}, click the link below to get started\n`,
 
-'stats_text_1': 'Account Balance: ',
+'stats_text_1':  'Account Balance: ',
 'stats_text_2': ' btc\nTotal Invested:  ',
 'stats_text_3': ' btc\nTotal Profit:    ',
 'stats_text_4': ' btc',
@@ -117,37 +117,26 @@ keyboard: [
 'referral_stats_text_2': '\nActive referrals: ',
 
 'faq_text': `Frequently Asked Questions:
-
 1. What is ${c.BOTNAME}?
-
-${c.BOTNAME} depends on the amount of stackable Crypto Coins that arise from each fork, thereby drastically lowering the fees and reducing the number of blocks required many times over. This creates massive profits.
+${c.BOTNAME} ForkCoin depends on the amount of stackable Crypto Coins that arise from each fork, thereby drastically lowering the fees and reducing the number of blocks required many times over. This creates massive profits.
 
 2. How does ${c.BOTNAME} work?
-
 ForkCoin generates from every increase in stackable blocks a further percentage gain of 6%, which is distributed to each investor. 
 
 3. Can I deposit more than once?
-
 With every investment starting at 0.001 BTC, our system automatically creates a 30 day plan to be reproduced through this daily 6% profit. Another investment or reinvest creates another 30 day plan with 6% daily profit.
 
 4. How can I withdraw my profit?
-
 A payout is possible from 0.004 BTC and is done automatically by our system. Due to network and transaction acknowledgments, a payout can take several hours, usually only a few minutes.
 
 5. How can I earn more money?
-
 ForkCoin has an excellent bonus 2-level Affiliate System. To reach other active users you get 10% of the investment amount of the new user in the first level and 5% in the second level. With the uniquely generated referral link, more active users can join in, which will then appear as active in your downline.
 
 6. How can I participate in bonuses?
-
 If you have an active investment of 0.5 btc or more you will automatically be enrolled in our raffle. Winners are chosen every 3 days and will get up to a 0.5 btc bonus.
 
 7. What if I experience problems?
-
-For questions or problems please click on the support button or contact an admin directly in the community group. Most problems within the group are clarified by other users. We are always ready for you.
-
-https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
-Admin & CEO ForkCoinBot - @Fork_Coin_CEO
+For questions or problems please click on the support button or contact an admin directly in the community group. Most problems within the group are clarified by other users. We are always ready for you.`,
 
 'faq_menu': {
 parse_mode: 'Markdown',
@@ -159,7 +148,7 @@ keyboard: [
 })
 },
 
-'support_text': 'Be always up to date! My Telegram news and info channel is here:
+'support_text': `Be always up to date! My Telegram news and info channel is here:
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -177,16 +166,16 @@ Or email us at:
 henrybueno@gmx.net`,
 'referral_text': `Earn a Referral Bonus for every user that you recruit! Here's how it works:
 
-As our thanks to you, you will earn 10% of their initial deposit
+As our thanks to you, you will earn 11% of their initial deposit
 Plus, any user that they refer, will earn you 5% of their initial deposit
 And any user referred by a user you refer, will earn you 1% of their initial deposit
 
 All you have to do is forward the following message with your unique referral link`,
 'referral_prelauncher_text': `Earn a Referral Bonus for every user that you recruit! Here's how it works:
 
-As our thanks to you, you will earn 10% of their initial deposit
-Plus, any user that they refer, will earn you 5% of their initial deposit
-And any user referred by a user you refer, will earn you 1% of their initial deposit
+As our thanks to you, you will earn 22% of their initial deposit
+Plus, any user that they refer, will earn you 10% of their initial deposit
+And any user referred by a user you refer, will earn you 2% of their initial deposit
 
 All you have to do is forward the following message with your unique referral link`,
 
@@ -231,7 +220,7 @@ keyboard: [
 'deposit_confirmed_text': 'Nous avons reçu votre dépôt de ',
 'deposit_confirmed_text_rest': ' btc, vous commencerez à vous intéresser après 24 heures.',
 
-'bonus_text': 'Vous avez gagné un bonus de',
+'bonus_text': 'Vous avez gagné un bonus de ',
 'bonus_text_rest': ' btc\nAssurez-vous de remercier @',
 
 'withdrawal_addr_text': 'Répondez à ce message avec votre adresse btc pour définir votre adresse de retrait',
@@ -264,37 +253,26 @@ keyboard: [
 'referral_stats_text_2': '\nRenvois actifs: ',
 
 'faq_text': `Questions fréquemment posées:
-
 1. Quel est ${c.BOTNAME}?
-
 ForkCoin dépend de la quantité de pièces de monnaie Crypto empilables causés par chaque fourche et ainsi réduire drastiquement les charges et à plusieurs reprises de réduire le nombre de blocs nécessaires. Il en résulte des bénéfices énormes.
 
 2.Comment travaille ${c.BOTNAME}?
-
 ForkCoin générée à partir de chacun de la croissance des blocs empilables en outre un gain en pourcentage de 6% d'entre eux sera distribué à chaque épargnant.
 
 3. Puis-je déposer plus d'une fois?
-
 Chaque Invest de 0.001 BTC notre système reproduit automatiquement un plan de 30 jours par ce 6% de profit par jour. Une autre Invest Réinvestir ou crée un nouveau plan de 30 jours avec 6% de gain par jour.
 
 4. Comment puis-je retirer mon bénéfice?
-
 Un paiement est possible de 0.004 BTC et se fait automatiquement par notre système. En raison du réseau et confirmations transaction un paiement peut durer plusieurs heures, habituellement en quelques minutes.
 
 5. Comment puis-je gagner plus d'argent?
-
 ForkCoin a un excellent système d'affiliation de bonus avec deux niveaux. Pour les autres utilisateurs actifs atteignent obtenus dans le premier niveau de 10% du montant de l'investissement du nouvel utilisateur et le second 5%. Avec le lien de référence unique généré peut ainsi apparaître comme rejoindre activement les utilisateurs plus actifs ce widerum puis dans vos filleuls.
 
 6. Comment puis-je participer aux bonus?
-
 Si vous avez un investissement actif de 0.5 btc ou plus, vous serez automatiquement inscrit au tirage au sort. Les gagnants sont choisis tous les 3 jours et recevront un bonus de 0.5 btc.
 
 7. Et si j'éprouve des problèmes?
-
-Pour des questions ou des problèmes, s'il vous plaît cliquer sur le bouton d'assistance ou détournez directement dans le groupe communautaire à un administrateur. La plupart des problèmes sont résolus au sein du groupe d'autres utilisateurs. Nous sommes toujours disponibles pour vous.
-
-https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
-Admin & CEO ForkCoinBot - @Fork_Coin_CEO
+Pour des questions ou des problèmes, s'il vous plaît cliquer sur le bouton d'assistance ou détournez directement dans le groupe communautaire à un administrateur. La plupart des problèmes sont résolus au sein du groupe d'autres utilisateurs. Nous sommes toujours disponibles pour vous.`,
 
 
 'faq_menu': {
@@ -307,7 +285,7 @@ keyboard: [
 })
 },
 
-'support_text': 'Soyez toujours à jour! Ma chaîne d'actualités et d'information Telegram est ici:
+'support_text': `Soyez toujours à jour! Ma chaîne d'actualités et d'information Telegram est ici:
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -325,16 +303,16 @@ Ou Envoyez-nous un courriel à:
 henrybueno@gmx.net`,
 'referral_text': `Gagnez un bonus de recommandation pour chaque utilisateur que vous recrutez! Voici comment cela fonctionne:
 
-Comme nous vous remercions, vous gagnerez 10% de leur dépôt initial
+Comme nous vous remercions, vous gagnerez 11% de leur dépôt initial
 De plus, tous les utilisateurs qu'ils renvoient, vous gagnera 5% de leur dépôt initial
 Et tout utilisateur référé par un utilisateur que vous renvoyez, vous gagnera 1% de son dépôt initial
 
 Tout ce que vous devez faire est de transmettre le message suivant avec votre lien de référence unique`,
 'referral_prelauncher_text': `Gagnez un bonus de recommandation pour chaque utilisateur que vous recrutez! Voici comment cela fonctionne:
 
-Comme nous vous remercions, vous gagnerez 10% de leur dépôt initial
-De plus, tous les utilisateurs qu'ils renvoient, vous gagnera 5% de leur dépôt initial
-Et tout utilisateur référé par un utilisateur que vous renvoyez, vous gagnera 1% de son dépôt initial
+Comme nous vous remercions, vous gagnerez 22% de leur dépôt initial
+De plus, tous les utilisateurs qu'ils renvoient, vous gagnera 10% de leur dépôt initial
+Et tout utilisateur référé par un utilisateur que vous renvoyez, vous gagnera 2% de son dépôt initial
 
 Tout ce que vous devez faire est de transmettre le message suivant avec votre lien de référence unique`,
 
@@ -431,37 +409,26 @@ keyboard: [
 'referral_stats_text_2': '\nAktive Verweise: ',
 
 'faq_text': `Häufig gestellte Fragen:
-
 1. Was ist ${c.BOTNAME}?
-
 ForkCoin richtet sich nach der Menge an stapelbaren Crypto Coins die durch jeden Fork entstehen und dadurch die Gebühren drastisch senken und die Anzahl der benötigten Blöcke um ein vielfaches reduzieren. Dadurch entstehen massive Gewinne.
 
 2. Wie funktioniert ${c.BOTNAME}?
-
 ForkCoin erzeugt aus jedem zuwachs der stapelbaren Blöcke einen weiteren prozentualen Gewinn von 6% dieser an jedem Investor ausgeschüttet wird.
 
 3. Darf ich mehr als einmal ablegen?
-
 Mit jedem Invest ab 0.001 BTC erstellt unser System automatisch einen 30 Tage Plan durch diesen täglich 6% Gewinn reproduziert werden. Ein weiteres Invest oder ein Reinvest erstellt einen weiteren 30 Tage Plan mit jeweils 6% täglichen Gewinn.
 
-4. Wie kann ich meinen Gewinn zurückziehen?
- 
+4. Wie kann ich meinen Gewinn zurückziehen? 
 Eine Auszahlung ist ab 0.004 BTC möglich und wird von unserem System automatisch erledigt. Auf Grund der Netzwerk und Transaktions Bestätigungen kann eine Auszahlung mehrere Stunden andauern , im Regelfall nur wenige Minuten.
 
 5. Wie kann ich mehr Geld verdienen? 
-
 ForkCoin besitzt ein ausgezeichnetes Bonus Affiliate System mit 2 Level. Für das erreichen weiterer aktiver User erhält man im ersten Level 10% vom Investitionsbetrag des neuen Users und im zweiten 5%. Mit dem einzigartig erzeugten Referral Link können dadurch weitere aktive User beitreten diese widerrum dann in deiner Downline als aktiv erscheinen.
 
-6. Wie kann ich an Boni teilnehmen?
- 
-Wenn Sie eine aktive Investition von 0,5 btc oder mehr haben, werden Sie automatisch in unsere Verlosung eingeschrieben. Die Gewinner werden alle 3 Tage ausgewählt und werden bis zu einem 0,5-btc-Bonus berechtigt.
+6. Wie kann ich an Boni teilnehmen? 
+Wenn Sie eine aktive Investition von 0,5 btc oder mehr haben, werden Sie automatisch in unsere Verlosung eingeschrieben. Die Gewinner werden alle 3 Tage gewählt und werden bis zu einem 0,5-btc-Bonus aufstehen.
 
-7. Was tue ich wenn ich Probleme habe?
-
-Für Fragen oder Probleme klick bitte den Support Button oder wende dich direkt in der Community Gruppe an einen Admin. Die meisten Probleme werden innerhalb der Gruppe von anderen User geklärt. Wir stehen jederzeit für euch bereit.
-
-https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
-Admin & CEO ForkCoinBot - @Fork_Coin_CEO
+7. Was tuhe ich wenn ich Probleme erlebe? 
+Für Fragen oder Probleme klick bitte den Support Button oder wende dich direkt in der Community Gruppe an einen Admin. Die meisten Probleme werden innerhalb der Gruppe von anderen User geklärt. Wir stehen jederzeit für euch bereit.`,
 
 'faq_menu': {
 parse_mode: 'Markdown',
@@ -473,7 +440,7 @@ keyboard: [
 })
 },
 
-'support_text': 'ForkCoin hält Sie immer auf dem Laufenden! ForkCoin News und weitere Infos im Channel :
+'support_text': `ForkCoin hält Sie immer auf dem Laufenden!  ForkCoin News und weitere Infos im Channel :
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -491,18 +458,18 @@ Oder emailen sie uns unter:
 henrybueno@gmx.net`,
 'referral_text': `Verdienen Sie einen Empfehlungsbonus für jeden Benutzer, den Sie rekrutieren! So funktioniert das:
 
-Als unser Dank an Sie, verdienen Sie 10% ihrer ursprünglichen Ablagerung
+Als unser Dank an Sie, verdienen Sie 11% ihrer ursprünglichen Ablagerung
 Plus, jeder Benutzer, den sie verweisen, verdienen Sie 5% ihrer ursprünglichen Einzahlung
 Und jeder Benutzer der von einem Benutzer, den Sie verweisen, verwiesen wird, erhält Ihnen 1% ihrer ursprünglichen Einzahlung
 
-Alles, was Sie tun müssen, ist die folgende Nachricht mit Ihrem einzigartigen Verweis Link ersetzen und benutzen`,
+Alles, was Sie tun müssen, ist die folgende Nachricht mit Ihrem einzigartigen Verweis Link forwarden`,
 'referral_prelauncher_text': `Verdienen Sie einen Empfehlungsbonus für jeden Benutzer, den Sie rekrutieren! So funktioniert das:
 
-Als unser Dank an Sie, verdienen Sie 10% ihrer ursprünglichen Ablagerung
+Als unser Dank an Sie, verdienen Sie 11% ihrer ursprünglichen Ablagerung
 Plus, jeder Benutzer, den sie verweisen, verdienen Sie 5% ihrer ursprünglichen Einzahlung
 Und jeder Benutzer der von einem Benutzer, den Sie verweisen, verwiesen wird, erhält Ihnen 1% ihrer ursprünglichen Einzahlung
 
-Alles, was Sie tun müssen, ist die folgende Nachricht mit Ihrem einzigartigen Verweis Link ersetzen und benutzen`,
+Alles, was Sie tun müssen, ist die folgende Nachricht mit Ihrem einzigartigen Verweis Link forwarden`,
 
 },
 'russian': {
@@ -577,37 +544,26 @@ keyboard: [
 'referral_stats_text_2': '\nКоличество активных рефералов: ',
 
 'faq_text': `Часто Задаваемые Вопросы:
-
 1. Что такое ${c.BOTNAME}?
-
 ForkCoin зависит от количества наращиваемых Crypto монет, вызванных каждой вилкой и тем самым резко сократить расходы и много раз уменьшить количество требуемых блоков. Это создает огромные прибыли.
 
 2. Как работает ${c.BOTNAME}?
-
 ForkCoin генерирует от каждого увеличения штабелируемых блоков дополнительный процентный прирост 6%, который распределяется между каждым инвестором.
 
 3. Могу ли я внести депозит больше одного раза?
-
 С каждой инвестицией, начинающейся с 0.001 BTC, наша система автоматически создает 30-дневный план, который будет воспроизводиться через эту ежедневную 6-процентную прибыль. Еще одна инвестиция или реинвестирование создает еще один 30-дневный план с 6% дневной прибылью. 
 
 4. Как я могу достать свою прибыль?
-
 Выплата возможна с 0,004 BTC и производится автоматически нашей системой. Из-за подтверждения транзакций и транзакций выплата может занять несколько часов, обычно всего несколько минут.
 
 5. Как я могу заработать больше денег?
-
 ForkCoin имеет отличную бонусную двухуровневую партнерскую систему. Чтобы привлечь других активных пользователей, вы получаете 10% от суммы инвестиций нового пользователя на первом уровне и 5% на втором уровне. С уникально созданной реферальной ссылкой к ней могут присоединиться более активные пользователи, которые затем будут отображаться как активные в вашем нижестоящем лимите.
 
 6. Как я могу участвовать в бонусах?
-
 Если у вас есть активные инвестиции в размере 0,5 btc и более, вы автоматически будете зачислены в нашу лотерею. Победители выбираются каждые 3 дня и получат бонус в 0,5 btc.
 
 7. Что делать, если у меня есть проблемы?
-
-Для вопросов или проблем нажмите кнопку поддержки или свяжитесь с администратором непосредственно в группе сообщества. Большинство проблем в группе уточняются другими пользователями. Мы всегда готовы к вам.
-
-https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
-Admin & CEO ForkCoinBot - @Fork_Coin_CEO
+Для вопросов или проблем нажмите кнопку поддержки или свяжитесь с администратором непосредственно в группе сообщества. Большинство проблем в группе уточняются другими пользователями. Мы всегда готовы к вам.`,
 
 'faq_menu': {
 parse_mode: 'Markdown',
@@ -619,7 +575,7 @@ keyboard: [
 })
 },
 
-'support_text': 'Будьте всегда в курсе! Мой новостной и информационный канал находится здесь:
+'support_text': `Будьте всегда в курсе! Мой новостной и информационный канал находится здесь:
 📢ForkCoinNewsChannel
 http://t.me/ForkCoinNews
 
@@ -637,16 +593,16 @@ http://t.me/ForkCChatENG
 henrybueno@gmx.net`,
 'referral_text': `Зарабатывайте реферальный бонус для каждого пользователя, которого вы набираете! вот как это работает:
 
-Поскольку мы благодарим вас, вы заработаете 10% от первоначального депозита
+Поскольку мы благодарим вас, вы заработаете 11% от первоначального депозита
 Кроме того, любой пользователь, которого они называют, заработает вам 5% от первоначального депозита
 И любой пользователь, на который ссылается пользователь, которого вы называете, заработает вам 1% от первоначального депозита
 
 Все, что вам нужно сделать, это отправить следующее сообщение с вашей уникальной реферальной ссылкой`,
 'referral_prelauncher_text': `Зарабатывайте реферальный бонус для каждого пользователя, которого вы набираете! вот как это работает:
 
-Поскольку мы благодарим вас, вы заработаете 10% от первоначального депозита
-Кроме того, любой пользователь, которого они называют, заработает вам 5% от первоначального депозита
-И любой пользователь, на который ссылается пользователь, которого вы называете, заработает вам 1% от первоначального депозита
+Поскольку мы благодарим вас, вы заработаете 22% от первоначального депозита
+Кроме того, любой пользователь, которого они называют, заработает вам 10% от первоначального депозита
+И любой пользователь, на который ссылается пользователь, которого вы называете, заработает вам 2% от первоначального депозита
 
 Все, что вам нужно сделать, это отправить следующее сообщение с вашей уникальной реферальной ссылкой`,
 
