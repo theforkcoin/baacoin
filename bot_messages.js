@@ -149,7 +149,7 @@ For questions or problems please click on the support button or contact an admin
 https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
 Admin & CEO ForkCoinBot - @Fork_Coin_CEO
 
-'Be always up to date! Our Telegram news and info channel is here:
+Be always up to date! Our Telegram news and info channel is here:
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -286,18 +286,7 @@ Pour des questions ou des problèmes, s'il vous plaît cliquer sur le bouton d'a
 https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
 Admin & CEO ForkCoinBot - @Fork_Coin_CEO
 
-
-'faq_menu': {
-parse_mode: 'Markdown',
-reply_markup: JSON.stringify({
-keyboard: [
-[{text: '📝 Soutien'}],
-[{text: '🏠 Retour au menu principal'}]
-]
-})
-},
-
-'support_text': 'Soyez toujours à jour! Ma chaîne d'actualités et d'information Telegram est ici:
+Soyez toujours à jour! Ma chaîne d'actualités et d'information Telegram est ici:
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -453,17 +442,7 @@ Für Fragen oder Probleme klick bitte den Support Button oder wende dich direkt 
 https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
 Admin & CEO ForkCoinBot - @Fork_Coin_CEO
 
-'faq_menu': {
-parse_mode: 'Markdown',
-reply_markup: JSON.stringify({
-keyboard: [
-[{text: '📝 Support'}],
-[{text: '🏠 Zurück zum Hauptmenü'}]
-]
-})
-},
-
-'support_text': 'ForkCoin hält Sie immer auf dem Laufenden! ForkCoin News und weitere Infos im Channel :
+ForkCoin hält Sie immer auf dem Laufenden! ForkCoin News und weitere Infos im Channel :
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
@@ -599,17 +578,7 @@ ForkCoin имеет отличную бонусную двухуровневую
 https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
 Admin & CEO ForkCoinBot - @Fork_Coin_CEO
 
-'faq_menu': {
-parse_mode: 'Markdown',
-reply_markup: JSON.stringify({
-keyboard: [
-[{text: '📝 Помощь'}],
-[{text: '🏠 Вернуться в Главное Меню'}]
-]
-})
-},
-
-'support_text': 'Будьте всегда в курсе! Мой новостной и информационный канал находится здесь:
+Будьте всегда в курсе! Мой новостной и информационный канал находится здесь:
 📢ForkCoinNewsChannel
 http://t.me/ForkCoinNews
 
