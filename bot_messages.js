@@ -149,17 +149,7 @@ For questions or problems please click on the support button or contact an admin
 https://t.me/ForkCChatENG - https://t.me/ForkCChatDE - https://t.me/ForkCoinNews
 Admin & CEO ForkCoinBot - @Fork_Coin_CEO
 
-// 'faq_menu': {
-// parse_mode: 'Markdown',
-// reply_markup: JSON.stringify({
-// keyboard: [
-// [{text: '📝 Support'}],
-// [{text: '🏠 Return to Main Menu'}]
-// ]
-// })
-// },
-
-'support_text': 'Be always up to date! My Telegram news and info channel is here:
+'Be always up to date! Our Telegram news and info channel is here:
 📢ForkCoinNewsChannel
 https://t.me/ForkCoinNews
 
