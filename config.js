@@ -1,6 +1,6 @@
 // CONFIGURE THESE SETTINGS
 
-var TESTNET = true;
+var TESTNET = false;
 
 module.exports = {
 
