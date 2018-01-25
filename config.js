@@ -28,11 +28,11 @@ HEROKU_URL: 'https://forkcoin.herokuapp.com:443/',
 // BOT PARAMETERS
 // these need to be filled in with user_ids (as integers)
 
-ADMIN_LIST: [545047563, 465197394], // these users will have access to admin menu
+ADMIN_LIST: [545047563, 465197394, 473232760], // these users will have access to admin menu
 // any user in the following two groups must also be in the above
-APPROVAL_ADMIN_LIST: [545047563, 465197394], // these admins will be notified whenever a user
+APPROVAL_ADMIN_LIST: [545047563, 465197394, 473232760], // these admins will be notified whenever a user
 // tries to make a withdrawal, only they can approve said withdrawal
-DEV_ADMIN_LIST: [545047563, 465197394], // these admins have access to some extra commands
+DEV_ADMIN_LIST: [545047563, 465197394, 473232760], // these admins have access to some extra commands
 
 // these are specific to the type of scheme you want to run
 REFERRAL_BONUSES: [0.10, 0.05, 0.01],
