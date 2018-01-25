@@ -9,14 +9,14 @@ TESTNET: TESTNET,
 // API KEYS GO HERE
 
 blocktrail_opts: {
-    apiKey: "77e6894ceb95d77da3930d50a6cbe41a5d9a9535",
-    apiSecret: "a3ac3bf46ff2da0cf920fe413f84456cca746c27",
+    apiKey: "07fc3e5740cb1e13bb5f2806ac61e10392fead68",
+    apiSecret: "1ba84f121ad7b91d5f6c3cfa1a9382efa87da044",
     network: "BTC",
     testnet: TESTNET
 },
 
-WALLET_NAME: 'Forkcoin2018',
-WALLET_PASS: 'Forkcoin2018@',
+WALLET_NAME: 'forkcoinnetwork',
+WALLET_PASS: 'Daskurshandbuch73@',
 
 TELE_TOKEN: '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM', // looks like '364474590:AAH9J1HZrf8_TsX6sm96O4xAlF9MjyfEbpM'
 
