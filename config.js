@@ -4,15 +4,15 @@ var TESTNET = true;
 
 module.exports = {
 
-TESTNET: TESTNET,
+// TESTNET: TESTNET,
 
 // API KEYS GO HERE
 
 blocktrail_opts: {
     apiKey: "07fc3e5740cb1e13bb5f2806ac61e10392fead68",
     apiSecret: "1ba84f121ad7b91d5f6c3cfa1a9382efa87da044",
-    network: "BTC",
-    testnet: TESTNET
+    network: "BTC"
+    // ,testnet: TESTNET
 },
 
 WALLET_NAME: 'forkcoinnetwork',
